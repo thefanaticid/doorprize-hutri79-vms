@@ -12,6 +12,7 @@ const queryClient = new QueryClient()
 // Create a new router instance
 const router = createRouter({ 
   routeTree,
+  basepath: '/doorprize-hutri79-vms',
   context: {
     queryClient,
   },
